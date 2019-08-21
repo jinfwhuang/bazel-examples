@@ -1,6 +1,6 @@
 
 
-# Bazel Rule to generate report
+#### Bazel Rule to generate report
 ```bash
 # Generate coverage file
 bazel coverage \
@@ -19,10 +19,12 @@ tree bazel-out/darwin-fastbuild/bin/javatest/com/example/genhtml_script.runfiles
 
 
 # TODO
-- The goal would be able to combine the `bazel coverage` and `bazel run ...:coverage_report` step
+- The goal would be able to combine the `bazel coverage` and `bazel run ...:coverage_report` 
+  into one step.
 
 
-# Manually generate coverage file
+
+#### Manually generate coverage file
 ```bash
 
 # Generate coverage file
@@ -40,7 +42,7 @@ open .coverage/index.html
 ```
 
 
-# Other commands
+#### Other commands
 ```bash
 # Run program
 bazel run //java/com/example:main

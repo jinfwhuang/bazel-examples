@@ -28,10 +28,3 @@ java_binary(
         ":lib",
     ],
 )
-
-exports_files(
-    glob([
-        "*.java",
-    ]),
-    visibility = ["//visibility:public"],
-)
