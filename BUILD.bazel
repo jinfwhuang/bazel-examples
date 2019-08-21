@@ -1,0 +1,5 @@
+filegroup(
+    name = "testlogs_coverage_files",
+    visibility = ["//visibility:public"],
+    srcs = glob(["bazel-testlogs/**/coverage.dat"]),
+)

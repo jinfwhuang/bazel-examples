@@ -1,0 +1,7 @@
+bazel-bin
+bazel-genfiles
+bazel-jin-bazel-examples
+bazel-out
+bazel-testlogs
+
+.coverage/
