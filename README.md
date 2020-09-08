@@ -39,6 +39,9 @@ genhtml bazel-testlogs/javatest/com/example/unit_test/coverage.dat -o .coverage
 
 # Open html
 open .coverage/index.html
+
+# One liner
+genhtml -o coverage `bazel coverage //javatest/com/example:unit_test | grep coverage.dat`
 ```
 
 
